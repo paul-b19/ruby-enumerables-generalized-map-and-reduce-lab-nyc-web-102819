@@ -29,7 +29,7 @@ end
 
 ## Code Snippet
 
-```ruby
+=begin
 def map(s)
   new = []
   i = 0
@@ -62,6 +62,7 @@ p reduce([true, true, true]){ |memo, x| memo && x } # all?
 p reduce([true, false, true]){ |memo, x| memo && x } # all?
 p reduce([true, false, true]){ |memo, x| memo || x } # any?
 p reduce([!true, false, !true]){ |memo, x| memo || x } # any?
-```
+=end
+
 
 
